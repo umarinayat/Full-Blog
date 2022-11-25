@@ -1,0 +1,34 @@
+.parallax {
+    /* The image used */
+    background-image: url("../../assets/bg1.jpg");
+
+    /* Set a specific height */
+    min-height: 800px;
+    /* width: 100%; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#custom-nav .nav-link {
+    color: var(--primary);
+    padding: 0 1.5rem 0 1.5rem;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.custom-quote {
+    border-radius: 10%;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.custom-hr {
+    border-bottom: 1px solid grey;
+    margin: 0 19rem 0 19rem;
+    padding-top: 1.5rem;
+}

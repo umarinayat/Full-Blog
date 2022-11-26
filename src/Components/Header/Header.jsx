@@ -8,7 +8,7 @@ const Header = () => {
         {" "}
         <Navbar collapseOnSelect expand="lg" className="fix-top">
           <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home">USquare Tech</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto px-md-5 pt-md-2" id="custom-nav">

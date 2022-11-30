@@ -28,6 +28,13 @@ const Header = () => {
           </Container>
         </Navbar>
         <div className="custom-hr"></div>
+        <div className="py-5">
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <p>ALL SOLUTION IN ONE</p>
+            <h1 classNane="fs-1">Unlimited</h1>
+            <h3>Advice, Tutorial, Resource</h3>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,12 +1,6 @@
 .parallax {
-    /* The image used */
     background-image: url("../../assets/bg1.jpg");
-
-    /* Set a specific height */
-    min-height: 800px;
-    /* width: 100%; */
-
-    /* Create the parallax scrolling effect */
+    min-height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +21,19 @@
     color: var(--primary);
 }
 
-.custom-hr {
-    border-bottom: 1px solid grey;
-    margin: 0 19rem 0 19rem;
-    padding-top: 1.5rem;
+#hero {
+    padding: 4rem 0 4rem 0;
+}
+
+#hero p {
+    color: purple;
+    font-size: 1.3rem;
+}
+
+#hero h1 {
+    font-size: 6rem;
+}
+
+#hero h3 {
+    font-size: 4rem;
 }

@@ -1,4 +1,4 @@
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import "./Header.css";
 
 const Header = () => {
@@ -20,16 +20,17 @@ const Header = () => {
                 <Nav.Link href="#contactus">Contact us</Nav.Link>
               </Nav>
               <Nav className="pt-md-2">
-                <Nav.Link href="#deets" className="custom-quote">
-                  Get a Qoute
-                </Nav.Link>
+                <Button className="btn-dark">Get A Quote</Button>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div className="custom-hr"></div>
+        <hr />
         <div className="py-5">
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div
+            className="d-flex flex-column justify-content-center align-items-center"
+            id="hero"
+          >
             <p>ALL SOLUTION IN ONE</p>
             <h1 classNane="fs-1">Unlimited</h1>
             <h3>Advice, Tutorial, Resource</h3>
